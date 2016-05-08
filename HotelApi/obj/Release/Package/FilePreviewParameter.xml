@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="doster-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\dima\\Documents\\Visual\ Studio\ 2015\\Projects\\hotel-backend\\HotelApi\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\dima\\Documents\\Visual\ Studio\ 2015\\Projects\\hotel-backend\\HotelApi\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="HotelEntities-Web.config Connection String" description="" value="Data Source=HotelDatabase.mssql.somee.com;Initial Catalog=HotelDatabase;Persist Security Info=True;User ID=doster_SQLLogin_1;Password=c2ebqr3yzf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dima\\Documents\\Visual\ Studio\ 2015\\Projects\\hotel-backend\\HotelApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HotelEntities']/@connectionString" />
+  </parameter>
+</parameters>

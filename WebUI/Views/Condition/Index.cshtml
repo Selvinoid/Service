@@ -1,0 +1,115 @@
+﻿<div class="col-md-12 ng-cloak" ng-controller="conditionController" ng-init="init('@Url.Action("GetHotels", "Hotel")')">
+    <div class="row" style="padding-bottom: 20px; padding-top: 20px;">
+        <div class="col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 col-sm-12 col-xs-12">
+            <div class="form-group">
+                <label class="control-label">Select hotel</label>
+                <select class="form-control" ng-model="currentHotel" ng-options="hotel as hotel.Name for hotel in hotels" required></select>
+                <span class="material-input"></span>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-dismissible alert-danger" id="roomExistError" style="display: none;">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4 class="text-center">Error!</h4>
+        <p class="text-center">
+            This number of room is already exist in this hotel
+        </p>
+    </div>
+    <div class="alert alert-dismissible alert-danger" id="ConditionExist" style="display: none;">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4 class="text-center">Error!</h4>
+        <p class="text-center">
+            Condition with this name is already exist
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-3 product-grid" ng-repeat="condition in currentHotel.Conditions" ng-cloak>
+            <div class="thumbnail">
+                <img ng-src="{{condition.Images[0]}}" alt="..." ng-cloak>
+                <div class="caption">
+                    <h3>{{condition.Name}}</h3>
+                    <p>
+                        <a class="btn btn-raised btn-sm btn-success" ng-click="seeImages(condition)"><i class="fa fa-picture-o"></i>&nbsp;See images</a>
+                        <a data-toggle="modal" data-target="#uploadModal" class="btn btn-raised btn-sm btn-info"><i class="fa fa-picture-o"></i>&nbsp;Upload image</a>
+                    </p>
+                    <p>
+                        <a class="btn btn-raised btn-sm btn-danger" href="javascript:void(0)" ng-click="deleteCondition('@Url.Action("DeleteCondition")',condition)"><i class="fa fa-close"></i>&nbsp;Delete</a>
+                        <a class="btn btn-raised btn-sm btn-info" href="javascript:void(0)" ng-click="editCondition(condition)"><i class="fa fa-pencil"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Upload Image</h4>
+                </div>
+                @using (Html.BeginForm("UploadImage", "Condition", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                {
+                    <div class="modal-body">
+                        <input type="text" name="id" ng-hide="true" ng-model="currentCondition.Id" />
+                        <input type="file" name="file">
+                    </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imagesModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">{{currentCondition.Name}} condition</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" ng-repeat="image in currentCondition.Images" style="margin-bottom: 10px;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-right">
+                                <a href="javascript:void(0)" ng-click="removeImage('@Url.Action("RemoveImage")',image)"><i class="fa fa-close"></i></a>
+                            </div>
+                            <div class="panel-body">
+                                <img ng-src="{{image}}" class="img-responsive " />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Change condition</h4>
+                </div>
+                <form ng-submit="saveEditCondition('@Url.Action("EditCondition", "Condition")')">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="control-label">Condition name</label>
+                            <input class="form-control" placeholder="Condition name" ng-model="currentCondition.Name" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/js/services/conditionService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/conditionController.js"></script>
+}

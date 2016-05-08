@@ -1,0 +1,23 @@
+{
+  "name": "angular-snap-dev",
+  "version": "1.9.3",
+  "dependencies": {},
+  "devDependencies": {
+    "snapjs": "~1.9",
+    "angular": "~1.2",
+    "angular-scenario": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-route": "~1.2"
+  },
+  "homepage": "https://github.com/jtrussell/angular-snap.js",
+  "_release": "1.9.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.9.3",
+    "commit": "4d1a8edeb8b955227802da245deab221ff5323cc"
+  },
+  "_source": "git://github.com/jtrussell/angular-snap.js.git",
+  "_target": "~1.9.3",
+  "_originalSource": "angular-snapjs",
+  "_direct": true
+}

@@ -1,0 +1,141 @@
+﻿<div class="well bs-component">
+    <div ng-controller="roomController" ng-init="init('@Url.Action("GetAllRooms", "Room")')" ng-cloak="">
+        <div class="alert alert-dismissible alert-danger" id="roomExistError" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <h4 class="text-center">Error!</h4>
+            <p class="text-center">
+                This number of room is already exist in this hotel
+            </p>
+        </div>
+        <div class="row">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="text-center">Hotel rooms page</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Search..." ng-model="query">
+            </div>
+        </div>
+        <div class="row" style="overflow-x: auto;">
+            <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>PersonCount</th>
+                        <th>Price</th>
+                        <th>HotelName</th>
+                        <th>Description</th>
+                        <th>See images</th>
+                        <th>Upload image</th>
+                        <th>Delete</th>
+                        <th>Edit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="room in rooms | filter: {HotelName: query}">
+                        <td>{{room.Number}}</td>
+                        <td>{{room.PersonCount}}</td>
+                        <td>{{room.Price}} <i class="material-icons">attach_money</i></td>
+                        <td>{{room.HotelName}}</td>
+                        <td>{{room.Description}}</td>
+                        <td><a class="btn btn-raised btn-sm btn-success" ng-click="seeRoomImage(room)">See images</a></td>
+                        <td><a data-toggle="modal" data-target="#uploadModal" class="btn btn-raised btn-sm btn-info" ng-click="uploadImage(room)">Upload image</a></td>
+                        <td><a href="javascript:void(0)" ng-click="deleteRoom('@Url.Action("DeleteRoom")',room)"><i class="material-icons">highlight_off</i></a></td>
+                        <td><a href="javascript:void(0)" ng-click="editRoom(room)"><i class="material-icons">border_color</i></a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center">Upload Image</h4>
+                    </div>
+                    @using (Html.BeginForm("UploadImage", "Room", FormMethod.Post, new {enctype = "multipart/form-data", @class = "form-horizontal"}))
+                    {
+                        <div class="modal-body">
+                            <input type="text" name="id" ng-hide="true" ng-model="currentRoom.Id"/>
+                            <input type="file" name="file">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Upload</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="imagesModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center">{{currentRoom.Number}} room</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row" ng-repeat="image in currentRoom.Images" style="margin-bottom: 10px;">
+                            <div class="panel panel-default">
+                                <div class="panel-heading text-right">
+                                    <a href="javascript:void(0)" ng-click="removeImage('@Url.Action("RemoveImage")',image)"><i class="material-icons">highlight_off</i></a>
+                                </div>
+                                <div class="panel-body">
+                                    <img ng-src="{{image}}" class="img-responsive "/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="editRoomModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center">Add room</h4>
+                    </div>
+                    <form ng-submit="saveEditRoom('@Url.Action("EditRoom", "Room")')">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="control-label">Number</label>
+                                <input class="form-control" placeholder="Room number" ng-model="currentRoom.Number" pattern="^[0-9]+$" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Persons count</label>
+                                <select class="form-control" ng-model="currentRoom.PersonCount" ng-options="opt for opt in [1,2,3,4,5]" required></select>
+                                <span class="material-input"></span>
+                            </div>
+                            <div class="form-group ">
+                                <label class="control-label">Price</label>
+                                <input class="form-control" placeholder="Room price" ng-model="currentRoom.Price" pattern="^[0-9]+$" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Description</label>
+                                <input class="form-control" placeholder="Room description" ng-model="currentRoom.Description" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/js/services/roomService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/roomController.js"></script>
+}

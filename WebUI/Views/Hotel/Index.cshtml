@@ -1,0 +1,228 @@
+﻿<div class="col-md-12 ng-cloak" ng-controller="hotelController" ng-init="init('@Url.Action("GetHotels", "Hotel")')">
+    <div class="row" style="padding-bottom: 20px; padding-top: 20px;">
+        <div class="text-center">
+            <a data-toggle="modal" data-target="#myModal" class="btn btn-raised btn-warning ">
+                Add new hotel
+                <div class="ripple-container"></div>
+            </a>
+        </div>
+    </div>
+    <div class="row" style="padding-bottom: 20px; padding-top: 20px;">
+        <div class="col-md-offset-3 col-lg-offset-3 col-md-6 col-lg-6 col-sm-12 col-xs-12">
+            <input type="text" class="form-control" id="inputEmail" placeholder="Search..." ng-model="query">
+        </div>
+    </div>
+    <div class="alert alert-dismissible alert-danger" id="roomExistError" style="display: none;">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4 class="text-center">Error!</h4>
+        <p class="text-center">
+            This room is exist in this hotel
+        </p>
+    </div>
+    <div class="alert alert-dismissible alert-danger" id="hotelExistError" style="display: none;">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4 class="text-center">Error!</h4>
+        <p class="text-center">
+            Hotel with this name is already exist
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-3 product-grid" ng-repeat="hotel in hotels | filter: {Name: query}" ng-cloak>
+            <div class="thumbnail">
+                <img ng-src="{{hotel.Images[0]}}" alt="..." ng-cloak>
+                <div class="caption">
+                    <small>Stars</small>
+                    <small class="pull-right">
+                        <span class="rate fa-star fa" ng-repeat="n in range(hotel.Stars)" ng-cloak=""></span>
+                    </small>
+                    <h3 ng-cloak>{{hotel.Name}}</h3>
+                    <h4 ng-cloak>{{hotel.Adress}}</h4>
+                    <p ng-cloak> {{hotel.Description}}</p>
+                    <p>
+                        <a class="btn btn-sm btn-success" ng-click="seeHotelImage(hotel)"><i class="fa fa-picture-o"></i>&nbsp;See images</a>
+                        <a data-toggle="modal" data-target="#uploadModal" class="btn btn-raised btn-sm btn-info"
+                           ng-click="uploadImage('@Url.Action("SetHotelId")',hotel.Id)"><i class="fa fa-picture-o"></i>&nbsp;Upload</a>
+                        <a class="btn btn-sm btn-danger" ng-click="addRoom('@Url.Action("SetHotelId")',hotel)"><i class="fa fa-plus"></i> Add room</a>
+                    </p>
+                    <p>
+                        <a class="btn btn-raised btn-sm btn-primary" ng-click="addCondition('@Url.Action("SetHotelId")',hotel)"><i class="fa fa-plus"></i> Add condition</a>
+                        <a class="btn btn-raised btn-sm btn-danger" href="javascript:void(0)" ng-click="deleteHotel('@Url.Action("DeleteHotel")',hotel)"><i class="fa fa-close"></i>&nbsp;Delete</a>
+                        <a class="btn btn-raised btn-sm btn-danger" href="javascript:void(0)" ng-click="editHotel(hotel)"><i class="fa fa-pencil"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label">Name</label>
+                        <input class="form-control" placeholder="Hotel name" ng-model="hotel.Name" pattern="^[A-Za-z]+$" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Stars</label>
+                        <select class="form-control" ng-model="hotel.Stars" ng-options="opt for opt in [1,2,3,4,5]" required></select>
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label">Adress</label>
+                        <input class="form-control" placeholder="Hotel adress" ng-model="hotel.Adress" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Description</label>
+                        <input class="form-control" placeholder="Hotel description" ng-model="hotel.Description" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" ng-click="addHotel('@Url.Action("AddHotel", "Hotel")')">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Edit hotel</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label">Name</label>
+                        <input class="form-control" placeholder="Hotel name" ng-model="currentHotel.Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Stars</label>
+                        <select class="form-control" ng-model="currentHotel.Stars" ng-options="opt for opt in [1,2,3,4,5]" required></select>
+
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label">Adress</label>
+                        <input class="form-control" placeholder="Hotel adress" ng-model="currentHotel.Adress">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Description</label>
+                        <input class="form-control" placeholder="Hotel description" ng-model="currentHotel.Description">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" ng-click="changeHotel('@Url.Action("EditHotel", "Hotel")',currentHotel)">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Upload Image</h4>
+                </div>
+                @using (Html.BeginForm("UploadImage", "Hotel", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                {
+                    <div class="modal-body">
+                        <input type="file" name="file">
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Upload</button>
+                        </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imagesModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">{{currentHotel.Name}} images</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" ng-repeat="image in currentHotel.Images" style="margin-bottom: 10px;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-right">
+                                <a href="javascript:void(0)" ng-click="removeImage('@Url.Action("RemoveImage")',image)"><i class="fa fa-times"></i></a>
+                            </div>
+                            <div class="panel-body">
+                                <img ng-src="{{image}}" class="img-responsive " />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="conditionModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">{{currentHotel.Name}} hotel add condition</h4>
+                </div>
+                @using (Html.BeginForm("AddCondition", "Hotel", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal" }))
+                {
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="control-label">Name</label>
+                            <input class="form-control" placeholder="Condition name" name="name">
+                        </div>
+                        <input type="file" name="file">
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="addRoomModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">Add room</h4>
+                </div>
+                <form ng-submit="saveRoom('@Url.Action("AddRoom", "Hotel")')">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="control-label">Number</label>
+                            <input class="form-control" placeholder="Room number" ng-model="hotelRoom.Number" pattern="^[0-9]+$" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Persons count</label>
+                            <select class="form-control" ng-model="hotelRoom.PersonCount" ng-options="opt for opt in [1,2,3,4,5]" required></select>
+                            <span class="material-input"></span>
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label">Price</label>
+                            <input class="form-control" placeholder="Room price" ng-model="hotelRoom.Price" pattern="^[0-9]+$" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Description</label>
+                            <input class="form-control" placeholder="Room description" ng-model="hotelRoom.Description" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/js/services/hotelService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/hotelController.js"></script>
+}

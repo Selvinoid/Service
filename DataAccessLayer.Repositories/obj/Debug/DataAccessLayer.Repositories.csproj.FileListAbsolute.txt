@@ -1,0 +1,180 @@
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+C:\Users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Init3.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Orders.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.test.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Init3.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Orders.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.test.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Init3.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Orders.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.test.resources
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll.config
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Repositories.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Owin.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csprojResolveAssemblyReference.cache
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Final.resources
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Init3.resources
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.Orders.resources
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.Migrations.test.resources
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.csproj.GenerateResource.Cache
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Repositories\obj\Debug\DataAccessLayer.Repositories.pdb

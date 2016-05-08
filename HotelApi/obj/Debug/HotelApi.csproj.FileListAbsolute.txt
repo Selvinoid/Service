@@ -1,0 +1,591 @@
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\csc.exe
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\vbc.exe
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\VBCSCompiler.exe
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\HotelApi.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\HotelApi.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Antlr3.Runtime.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Moodroon.DataLayer.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Newtonsoft.Json.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Net.Http.Formatting.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Helpers.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.WebHost.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Mvc.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Optimization.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Razor.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.Deployment.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.Razor.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\WebGrease.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Newtonsoft.Json.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Net.Http.Formatting.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Helpers.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.WebHost.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Mvc.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Optimization.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Razor.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.Deployment.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.WebPages.Razor.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Antlr3.Runtime.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\obj\Debug\HotelApi.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\obj\Debug\HotelApi.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\EntityFramework.SqlServer.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Cors.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Owin.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Cors.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.Owin.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\DataAccessLayer.Repositories.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\DataAccessLayer.Models.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\EntityFramework.SqlServer.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Cors.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\System.Web.Http.Owin.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\DataAccessLayer.Repositories.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\DataAccessLayer.Models.pdb
+C:\Users\dima\documents\visual studio 2015\Projects\HotelLook\HotelApi\bin\HotelApi.dll.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\csc.exe
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\vbc.exe
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.dll.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Antlr3.Runtime.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.SqlServer.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Cors.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Newtonsoft.Json.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Owin.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Net.Http.Formatting.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Cors.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Helpers.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Owin.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.WebHost.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Mvc.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Optimization.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Razor.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\WebGrease.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Repositories.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Models.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.SqlServer.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Cors.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Owin.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Newtonsoft.Json.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Net.Http.Formatting.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Helpers.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.WebHost.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Mvc.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Optimization.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Razor.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Antlr3.Runtime.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Swashbuckle.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\WebActivatorEx.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\HotelApi.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Antlr3.Runtime.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Duke.Owin.VkontakteMiddleware.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Swashbuckle.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Net.Http.Formatting.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Helpers.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.WebHost.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Mvc.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Optimization.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\WebActivatorEx.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\WebGrease.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Cors.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Cors.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Net.Http.Formatting.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Helpers.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Http.WebHost.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Mvc.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Optimization.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\Antlr3.Runtime.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\HotelApi\obj\Debug\HotelApi.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\HotelApi.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\HotelApi.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\HotelApi.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Antlr3.Runtime.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Duke.Owin.VkontakteMiddleware.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Swashbuckle.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Helpers.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Cors.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Mvc.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Optimization.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\WebActivatorEx.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\WebGrease.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Cors.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Helpers.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Mvc.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Optimization.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\Antlr3.Runtime.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\csc.exe
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\vbc.exe
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\DaydHotel\HotelApi\bin\HotelApi.dll.config
+D:\Дауд\DaydHotel\HotelApi\bin\HotelApi.dll
+D:\Дауд\DaydHotel\HotelApi\bin\HotelApi.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\Antlr3.Runtime.dll
+D:\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Duke.Owin.VkontakteMiddleware.dll
+D:\Дауд\DaydHotel\HotelApi\bin\EntityFramework.dll
+D:\Дауд\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Newtonsoft.Json.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Owin.dll
+D:\Дауд\DaydHotel\HotelApi\bin\Swashbuckle.Core.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Cors.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Helpers.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Cors.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Owin.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Mvc.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Optimization.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Razor.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.dll
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.dll
+D:\Дауд\DaydHotel\HotelApi\bin\WebActivatorEx.dll
+D:\Дауд\DaydHotel\HotelApi\bin\WebGrease.dll
+D:\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.dll
+D:\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\EntityFramework.xml
+D:\Дауд\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Cors.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.Owin.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Newtonsoft.Json.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Helpers.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Mvc.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Optimization.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.Razor.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.xml
+D:\Дауд\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.xml
+D:\Дауд\DaydHotel\HotelApi\bin\Antlr3.Runtime.pdb
+D:\Дауд\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.pdb
+D:\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+D:\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.dll
+D:\Дауд\DaydHotel\HotelApi\obj\Debug\HotelApi.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\csc.exe
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\vbc.exe
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\HotelApi.dll.config
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\HotelApi.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\HotelApi.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Antlr3.Runtime.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\DataAccessLayer.Models.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Duke.Owin.VkontakteMiddleware.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\EntityFramework.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Newtonsoft.Json.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Owin.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Swashbuckle.Core.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Cors.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Helpers.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.Cors.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.Owin.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Mvc.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Optimization.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Razor.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\WebActivatorEx.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\WebGrease.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\DataAccessLayer.Models.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Moodroon.DataLayer.Core.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\EntityFramework.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\EntityFramework.SqlServer.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Cors.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.Cors.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.Owin.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Newtonsoft.Json.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Net.Http.Formatting.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Helpers.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Http.WebHost.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Mvc.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Optimization.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.Razor.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.Deployment.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\System.Web.WebPages.Razor.xml
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\Antlr3.Runtime.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\bin\DataAccessLayer.Repositories.pdb
+D:\Дауд\хуйня\DaydHotel\HotelApi\obj\Debug\HotelApi.csprojResolveAssemblyReference.cache
+D:\Дауд\хуйня\DaydHotel\HotelApi\obj\Debug\HotelApi.dll
+D:\Дауд\хуйня\DaydHotel\HotelApi\obj\Debug\HotelApi.pdb

@@ -1,0 +1,214 @@
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll.config
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Moodroon.DataLayer.Core.pdb
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Owin.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\DataAccessLayer.Repositories.pdb
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.csprojResolveAssemblyReference.cache
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.dll
+D:\Дауд\DaydHotel\Moodroon.DataLayer.Core\obj\Debug\Moodroon.DataLayer.Core.pdb

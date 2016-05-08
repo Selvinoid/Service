@@ -1,0 +1,82 @@
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+c:\users\dima\documents\visual studio 2015\Projects\HotelLook\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb
+C:\Users\dima\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll.config
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.csprojResolveAssemblyReference.cache
+D:\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\DataAccessLayer.Models\obj\Debug\DataAccessLayer.Models.pdb

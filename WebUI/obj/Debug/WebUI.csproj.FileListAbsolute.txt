@@ -1,0 +1,525 @@
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\ApplicationInsights.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\WebUI.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\WebUI.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.APIGateway.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Helpers.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Mvc.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Optimization.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\WebGrease.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.APIGateway.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.APIGateway.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\AWSSDK.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Helpers.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Mvc.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Optimization.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\bin\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\obj\Debug\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\hotel-backend\WebUI\obj\Debug\WebUI.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\ApplicationInsights.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\WebUI.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\WebUI.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.APIGateway.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Helpers.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Mvc.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Optimization.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\WebGrease.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.APIGateway.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.APIGateway.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\AWSSDK.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Helpers.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Mvc.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Optimization.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\bin\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\obj\Debug\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\DaydHotel\WebUI\obj\Debug\WebUI.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\ApplicationInsights.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\csc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\vbc.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\WebUI.dll.config
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\WebUI.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Antlr3.Runtime.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Web.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Owin.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Helpers.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Mvc.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Optimization.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\WebGrease.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Models.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Web.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Helpers.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Mvc.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Optimization.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Models.pdb
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.dll
+C:\Users\dimon\Documents\Visual Studio 2015\Projects\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.pdb
+D:\Дауд\DaydHotel\WebUI\bin\ApplicationInsights.config
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\csc.exe
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\vbc.exe
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\DaydHotel\WebUI\bin\WebUI.dll.config
+D:\Дауд\DaydHotel\WebUI\bin\WebUI.dll
+D:\Дауд\DaydHotel\WebUI\bin\WebUI.pdb
+D:\Дауд\DaydHotel\WebUI\bin\Antlr3.Runtime.dll
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.dll
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.dll
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.dll
+D:\Дауд\DaydHotel\WebUI\bin\EntityFramework.dll
+D:\Дауд\DaydHotel\WebUI\bin\EntityFramework.SqlServer.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Web.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\Дауд\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.dll
+D:\Дауд\DaydHotel\WebUI\bin\Newtonsoft.Json.dll
+D:\Дауд\DaydHotel\WebUI\bin\Owin.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Helpers.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Mvc.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Optimization.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Razor.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.dll
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\Дауд\DaydHotel\WebUI\bin\WebGrease.dll
+D:\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.dll
+D:\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Models.dll
+D:\Дауд\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.pdb
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.pdb
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.pdb
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.APIGateway.xml
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.pdb
+D:\Дауд\DaydHotel\WebUI\bin\AWSSDK.Core.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.Web.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Helpers.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Mvc.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Optimization.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.Razor.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\Дауд\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\Дауд\DaydHotel\WebUI\bin\Antlr3.Runtime.pdb
+D:\Дауд\DaydHotel\WebUI\bin\Newtonsoft.Json.xml
+D:\Дауд\DaydHotel\WebUI\bin\EntityFramework.xml
+D:\Дауд\DaydHotel\WebUI\bin\EntityFramework.SqlServer.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Дауд\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.pdb
+D:\Дауд\DaydHotel\WebUI\bin\DataAccessLayer.Models.pdb
+D:\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+D:\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.dll
+D:\Дауд\DaydHotel\WebUI\obj\Debug\WebUI.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\ApplicationInsights.config
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\csc.exe
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\System.Collections.Immutable.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\vbc.exe
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\roslyn\VBCSCompiler.exe.config
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\WebUI.dll.config
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\WebUI.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\WebUI.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Antlr3.Runtime.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.APIGateway.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.Core.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\EntityFramework.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\EntityFramework.SqlServer.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.Web.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Newtonsoft.Json.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Owin.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Helpers.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Mvc.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Optimization.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Razor.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\WebGrease.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\DataAccessLayer.Models.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Moodroon.DataLayer.Core.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.APIGateway.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.APIGateway.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.Core.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\AWSSDK.Core.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.Web.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AI.WindowsServer.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.ApplicationInsights.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Helpers.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Mvc.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Optimization.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.Razor.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\System.Web.WebPages.Razor.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Antlr3.Runtime.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Newtonsoft.Json.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\EntityFramework.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\EntityFramework.SqlServer.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Google.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\DataAccessLayer.Repositories.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\bin\DataAccessLayer.Models.pdb
+D:\Дауд\хуйня\DaydHotel\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+D:\Дауд\хуйня\DaydHotel\WebUI\obj\Debug\WebUI.dll
+D:\Дауд\хуйня\DaydHotel\WebUI\obj\Debug\WebUI.pdb

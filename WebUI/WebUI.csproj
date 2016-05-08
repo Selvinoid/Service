@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{084E72EB-3F33-44C0-8D17-27CCFD9BA629}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebUI</RootNamespace>
+    <AssemblyName>WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK, Version=2.3.55.0, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.2.3.55.0\lib\net45\AWSSDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AWSSDK.APIGateway, Version=3.2.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.APIGateway.3.2.3.0-beta\lib\net45\AWSSDK.APIGateway.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AWSSDK.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.Core.3.2.3.0-beta\lib\net45\AWSSDK.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.1.2.3\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfiguration\AppConfiguration.cs" />
+    <Compile Include="AppConfiguration\IAppConfiguration.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ConditionController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HotelController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\HotelOrdersController.cs" />
+    <Compile Include="Controllers\RoomController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IPrinsipal\CustomPrincipal.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="IPrinsipal\CustomPrincipalSerializeModel.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\asset\css\bootstrap.min.css" />
+    <Content Include="Content\asset\css\jquery.ui.min.css" />
+    <Content Include="Content\asset\css\plugins\animate.min.css" />
+    <Content Include="Content\asset\css\plugins\bootstrap-material-datetimepicker.css" />
+    <Content Include="Content\asset\css\plugins\codemirror.css" />
+    <Content Include="Content\asset\css\plugins\datatables.bootstrap.min.css" />
+    <Content Include="Content\asset\css\plugins\dropzone.css" />
+    <Content Include="Content\asset\css\plugins\font-awesome.min.css" />
+    <Content Include="Content\asset\css\plugins\fullcalendar.min.css" />
+    <Content Include="Content\asset\css\plugins\handsontable.full.min.css" />
+    <Content Include="Content\asset\css\plugins\hover.min.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\all.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\aero%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\aero.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\aero.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\blue%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\blue.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\blue.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\flat%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\flat.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\flat.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\green%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\green.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\green.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\grey%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\grey.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\grey.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\orange%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\orange.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\orange.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\pink%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\pink.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\pink.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\purple%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\purple.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\purple.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\red%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\red.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\red.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\yellow%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\yellow.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\yellow.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\flat\_all.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\futurico\futurico%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\futurico\futurico.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\futurico\futurico.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\aero.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\blue.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\green.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\grey.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\line%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\line.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\line.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\orange.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\pink.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\purple.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\red.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\yellow.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\line\_all.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\aero%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\aero.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\aero.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\blue%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\blue.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\blue.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\green%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\green.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\green.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\grey%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\grey.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\grey.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\minimal%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\minimal.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\minimal.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\orange%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\orange.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\orange.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\pink%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\pink.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\pink.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\purple%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\purple.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\purple.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\red%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\red.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\red.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\yellow%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\yellow.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\yellow.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\minimal\_all.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\polaris\polaris%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\polaris\polaris.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\polaris\polaris.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\aero%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\aero.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\aero.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\blue%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\blue.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\blue.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\green%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\green.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\green.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\grey%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\grey.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\grey.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\orange%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\orange.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\orange.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\pink%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\pink.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\pink.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\purple%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\purple.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\purple.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\red%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\red.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\red.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\square%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\square.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\square.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\yellow%402x.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\yellow.css" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\yellow.png" />
+    <Content Include="Content\asset\css\plugins\icheck\skins\square\_all.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.skinFlat.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.skinHTML5.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.skinModern.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.skinNice.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\ion.rangeSlider.skinSimple.css" />
+    <Content Include="Content\asset\css\plugins\ionrangeslider\normalize.css" />
+    <Content Include="Content\asset\css\plugins\jquery.steps.css" />
+    <Content Include="Content\asset\css\plugins\mediaelementplayer.css" />
+    <Content Include="Content\asset\css\plugins\normalize.css" />
+    <Content Include="Content\asset\css\plugins\nouislider.min.css" />
+    <Content Include="Content\asset\css\plugins\select2.min.css" />
+    <Content Include="Content\asset\css\plugins\simple-line-icons.css" />
+    <Content Include="Content\asset\css\plugins\spinkit.css" />
+    <Content Include="Content\asset\css\plugins\summernote.css" />
+    <Content Include="Content\asset\css\plugins\typebase.css" />
+    <Content Include="Content\asset\css\style.css" />
+    <Content Include="Content\asset\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\asset\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\asset\fonts\Simple-Line-Icons.svg" />
+    <Content Include="Content\asset\img\404.png" />
+    <Content Include="Content\asset\img\500.png" />
+    <Content Include="Content\asset\img\avatar.jpg" />
+    <Content Include="Content\asset\img\avatar2.png" />
+    <Content Include="Content\asset\img\avatar3.png" />
+    <Content Include="Content\asset\img\bg.svg" />
+    <Content Include="Content\asset\img\bg1.jpg" />
+    <Content Include="Content\asset\img\bg2.jpg" />
+    <Content Include="Content\asset\img\bg3.jpg" />
+    <Content Include="Content\asset\img\bg4.jpg" />
+    <Content Include="Content\asset\img\bigplay.svg" />
+    <Content Include="Content\asset\img\controls.png" />
+    <Content Include="Content\asset\img\controls.svg" />
+    <Content Include="Content\asset\img\demo-video.png" />
+    <Content Include="Content\asset\img\g3986.png" />
+    <Content Include="Content\asset\img\left-bg.png" />
+    <Content Include="Content\asset\img\left-bg2.png" />
+    <Content Include="Content\asset\img\logomi.png" />
+    <Content Include="Content\asset\img\sprite-skin-flat.png" />
+    <Content Include="Content\asset\img\sprite-skin-modern.png" />
+    <Content Include="Content\asset\img\sprite-skin-nice.png" />
+    <Content Include="Content\asset\img\sprite-skin-simple.png" />
+    <Content Include="Content\asset\img\ss.png" />
+    <Content Include="Content\asset\js\bootstrap.min.js" />
+    <Content Include="Content\asset\js\jquery.min.js" />
+    <Content Include="Content\asset\js\jquery.ui.min.js" />
+    <Content Include="Content\asset\js\main.js" />
+    <Content Include="Content\asset\js\plugins\bootstrap-material-datetimepicker.js" />
+    <Content Include="Content\asset\js\plugins\chart.min.js" />
+    <Content Include="Content\asset\js\plugins\clipboard.js" />
+    <Content Include="Content\asset\js\plugins\codemirror.js" />
+    <Content Include="Content\asset\js\plugins\datatables.bootstrap.min.js" />
+    <Content Include="Content\asset\js\plugins\dropzone.js" />
+    <Content Include="Content\asset\js\plugins\flashmediaelement.swf" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\annotating\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-interacting\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-multiple\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\date.js" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\background.png" />
+    <Content Include="Content\asset\js\plugins\flot\examples\basic-options\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\basic-usage\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\canvas\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\categories\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\examples.css" />
+    <Content Include="Content\asset\js\plugins\flot\examples\image\hs-2004-27-a-large-web.jpg" />
+    <Content Include="Content\asset\js\plugins\flot\examples\image\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\interacting\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\navigate\arrow-down.gif" />
+    <Content Include="Content\asset\js\plugins\flot\examples\navigate\arrow-left.gif" />
+    <Content Include="Content\asset\js\plugins\flot\examples\navigate\arrow-right.gif" />
+    <Content Include="Content\asset\js\plugins\flot\examples\navigate\arrow-up.gif" />
+    <Content Include="Content\asset\js\plugins\flot\examples\navigate\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\percentiles\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\realtime\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\resize\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\selection\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\series-errorbars\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\series-pie\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\series-toggle\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\series-types\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\shared\jquery-ui\jquery-ui.min.css" />
+    <Content Include="Content\asset\js\plugins\flot\examples\shared\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\examples\stacking\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\symbols\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\threshold\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\tracking\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\visitors\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\examples\zooming\index.html" />
+    <Content Include="Content\asset\js\plugins\flot\excanvas.js" />
+    <Content Include="Content\asset\js\plugins\flot\excanvas.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.colorhelpers.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.colorhelpers.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.canvas.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.canvas.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.categories.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.categories.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.crosshair.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.crosshair.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.errorbars.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.errorbars.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.fillbetween.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.fillbetween.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.image.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.image.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.navigate.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.navigate.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.pie.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.resize.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.selection.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.selection.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.stack.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.stack.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.symbol.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.symbol.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.threshold.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.threshold.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.time.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.flot.time.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.js" />
+    <Content Include="Content\asset\js\plugins\flot\jquery.min.js" />
+    <Content Include="Content\asset\js\plugins\flot\LICENSE.txt" />
+    <Content Include="Content\asset\js\plugins\fullcalendar.min.js" />
+    <Content Include="Content\asset\js\plugins\handsontable.full.min.js" />
+    <Content Include="Content\asset\js\plugins\holder.min.js" />
+    <Content Include="Content\asset\js\plugins\html5shiv.js" />
+    <Content Include="Content\asset\js\plugins\icheck.min.js" />
+    <Content Include="Content\asset\js\plugins\ie9.js" />
+    <Content Include="Content\asset\js\plugins\imagesloaded.pkgd.min.js" />
+    <Content Include="Content\asset\js\plugins\ion.rangeSlider.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.datatables.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.flot.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.knob.js" />
+    <Content Include="Content\asset\js\plugins\jquery.mask.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.mobile-1.4.5.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.nicescroll.js" />
+    <Content Include="Content\asset\js\plugins\jquery.sparkline.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.steps.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.validate.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.vmap.min.js" />
+    <Content Include="Content\asset\js\plugins\jquery.vmap.sampledata.js" />
+    <Content Include="Content\asset\js\plugins\jquery.vmap.world.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.africa.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.asia.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.australia.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.europe.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.north-america.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\jquery.vmap.south-america.js" />
+    <Content Include="Content\asset\js\plugins\maps\continents\readme.txt" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.algeria.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.argentina.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.brazil.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.europe.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.france.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.germany.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.greece.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.iran.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.iraq.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.russia.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.usa.js" />
+    <Content Include="Content\asset\js\plugins\maps\jquery.vmap.world.js" />
+    <Content Include="Content\asset\js\plugins\masonry.pkgd.min.js" />
+    <Content Include="Content\asset\js\plugins\mediaelement-and-player.min.js" />
+    <Content Include="Content\asset\js\plugins\moment.min.js" />
+    <Content Include="Content\asset\js\plugins\morris.min.js" />
+    <Content Include="Content\asset\js\plugins\nouislider.min.js" />
+    <Content Include="Content\asset\js\plugins\raphael.min.js" />
+    <Content Include="Content\asset\js\plugins\respond.min.js" />
+    <Content Include="Content\asset\js\plugins\select2.full.min.js" />
+    <Content Include="Content\asset\js\plugins\silverlightmediaelement.xap" />
+    <Content Include="Content\asset\js\plugins\summernote.min.js" />
+    <Content Include="Content\asset\media\demo.mp3" />
+    <Content Include="Content\asset\media\demo.mp4" />
+    <Content Include="Content\bootstrap-material-datetimepicker.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\angular-snap.css" />
+    <Content Include="Content\css\bootstrap-material-design.min.css" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\css\login.css" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\ripples.min.css" />
+    <Content Include="Content\images\arrow.png" />
+    <Content Include="Content\images\ASP-NET-Banners-01.png" />
+    <Content Include="Content\images\ASP-NET-Banners-02.png" />
+    <Content Include="Content\images\Banner-01-Azure.png" />
+    <Content Include="Content\images\Banner-02-VS.png" />
+    <Content Include="Content\images\bob.png" />
+    <Content Include="Content\images\flat-avatar.png" />
+    <Content Include="Content\images\jarry.png" />
+    <Content Include="Content\images\jonathan.png" />
+    <Content Include="Content\images\loadingGif.gif" />
+    <Content Include="Content\images\mike.png" />
+    <Content Include="Content\images\suzanne.png" />
+    <Content Include="Content\images\tom.png" />
+    <Content Include="Content\images\without_circle\bob-clean.png" />
+    <Content Include="Content\images\without_circle\jarry-clean.png" />
+    <Content Include="Content\images\without_circle\jonathan-clean.png" />
+    <Content Include="Content\images\without_circle\mike-clean.png" />
+    <Content Include="Content\images\without_circle\suzanne-clean.png" />
+    <Content Include="Content\images\without_circle\tom-clean.png" />
+    <Content Include="Content\nature-wallpaper-hd1.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\ai.0.15.0-build58334.js" />
+    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Scripts\bootstrap-material-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\css\base.less" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\css\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\css\less\.csscomb.json" />
+    <Content Include="Content\css\less\.csslintrc" />
+    <Content Include="Content\css\less\alerts.less" />
+    <Content Include="Content\css\less\badges.less" />
+    <Content Include="Content\css\less\bootstrap.less" />
+    <Content Include="Content\css\less\breadcrumbs.less" />
+    <Content Include="Content\css\less\button-groups.less" />
+    <Content Include="Content\css\less\buttons.less" />
+    <Content Include="Content\css\less\carousel.less" />
+    <Content Include="Content\css\less\close.less" />
+    <Content Include="Content\css\less\code.less" />
+    <Content Include="Content\css\less\component-animations.less" />
+    <Content Include="Content\css\less\dropdowns.less" />
+    <Content Include="Content\css\less\forms.less" />
+    <Content Include="Content\css\less\glyphicons.less" />
+    <Content Include="Content\css\less\grid.less" />
+    <Content Include="Content\css\less\input-groups.less" />
+    <Content Include="Content\css\less\jumbotron.less" />
+    <Content Include="Content\css\less\labels.less" />
+    <Content Include="Content\css\less\list-group.less" />
+    <Content Include="Content\css\less\media.less" />
+    <Content Include="Content\css\less\mixins\alerts.less" />
+    <Content Include="Content\css\less\mixins\background-variant.less" />
+    <Content Include="Content\css\less\mixins\border-radius.less" />
+    <Content Include="Content\css\less\mixins\buttons.less" />
+    <Content Include="Content\css\less\mixins\center-block.less" />
+    <Content Include="Content\css\less\mixins\clearfix.less" />
+    <Content Include="Content\css\less\mixins\forms.less" />
+    <Content Include="Content\css\less\mixins\gradients.less" />
+    <Content Include="Content\css\less\mixins\grid-framework.less" />
+    <Content Include="Content\css\less\mixins\grid.less" />
+    <Content Include="Content\css\less\mixins\hide-text.less" />
+    <Content Include="Content\css\less\mixins\image.less" />
+    <Content Include="Content\css\less\mixins\labels.less" />
+    <Content Include="Content\css\less\mixins\list-group.less" />
+    <Content Include="Content\css\less\mixins\nav-divider.less" />
+    <Content Include="Content\css\less\mixins\nav-vertical-align.less" />
+    <Content Include="Content\css\less\mixins\opacity.less" />
+    <Content Include="Content\css\less\mixins\pagination.less" />
+    <Content Include="Content\css\less\mixins\panels.less" />
+    <Content Include="Content\css\less\mixins\progress-bar.less" />
+    <Content Include="Content\css\less\mixins\reset-filter.less" />
+    <Content Include="Content\css\less\mixins\resize.less" />
+    <Content Include="Content\css\less\mixins\responsive-visibility.less" />
+    <Content Include="Content\css\less\mixins\size.less" />
+    <Content Include="Content\css\less\mixins\tab-focus.less" />
+    <Content Include="Content\css\less\mixins\table-row.less" />
+    <Content Include="Content\css\less\mixins\text-emphasis.less" />
+    <Content Include="Content\css\less\mixins\text-overflow.less" />
+    <Content Include="Content\css\less\mixins\vendor-prefixes.less" />
+    <Content Include="Content\css\less\mixins.less" />
+    <Content Include="Content\css\less\modals.less" />
+    <Content Include="Content\css\less\navbar.less" />
+    <Content Include="Content\css\less\navs.less" />
+    <Content Include="Content\css\less\normalize.less" />
+    <Content Include="Content\css\less\pager.less" />
+    <Content Include="Content\css\less\pagination.less" />
+    <Content Include="Content\css\less\panels.less" />
+    <Content Include="Content\css\less\popovers.less" />
+    <Content Include="Content\css\less\print.less" />
+    <Content Include="Content\css\less\progress-bars.less" />
+    <Content Include="Content\css\less\responsive-embed.less" />
+    <Content Include="Content\css\less\responsive-utilities.less" />
+    <Content Include="Content\css\less\scaffolding.less" />
+    <Content Include="Content\css\less\tables.less" />
+    <Content Include="Content\css\less\theme.less" />
+    <Content Include="Content\css\less\thumbnails.less" />
+    <Content Include="Content\css\less\tooltip.less" />
+    <Content Include="Content\css\less\type.less" />
+    <Content Include="Content\css\less\utilities.less" />
+    <Content Include="Content\css\less\variables.less" />
+    <Content Include="Content\css\less\wells.less" />
+    <Content Include="Content\css\main.less" />
+    <Content Include="Content\css\pages\dashboard.less" />
+    <Content Include="Content\css\pages\login.less" />
+    <Content Include="Content\css\transitions\all.less" />
+    <Content Include="Content\css\transitions\animations.less" />
+    <Content Include="Content\css\transitions\avatar.less" />
+    <Content Include="Content\css\transitions\pages.less" />
+    <Content Include="Content\css\widgets\checkbox.less" />
+    <Content Include="Content\css\widgets\input-underline.less" />
+    <Content Include="Content\asset\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\asset\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\asset\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\asset\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\asset\fonts\FontAwesome.otf" />
+    <Content Include="Content\asset\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\asset\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\asset\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\asset\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\asset\fonts\Simple-Line-Icons.eot" />
+    <Content Include="Content\asset\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="Content\asset\fonts\Simple-Line-Icons.woff" />
+    <Content Include="Content\asset\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="Content\asset\js\plugins\flot\examples\.DS_Store" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth-1.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth-2.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth-3.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth-4.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth-5.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-eu-gdp-growth.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-japan-gdp-growth.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\ajax\data-usa-gdp-growth.json" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\africa" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\antarctica" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\asia" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\australasia" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\backward" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\etcetera" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\europe" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\factory" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\iso3166.tab" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\leapseconds" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\northamerica" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\pacificnew" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\solar87" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\solar88" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\solar89" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\southamerica" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\systemv" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\yearistype.sh" />
+    <Content Include="Content\asset\js\plugins\flot\examples\axes-time-zones\tz\zone.tab" />
+    <None Include="Properties\PublishProfiles\hoteladmin - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-2.2.2.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.2.js" />
+    <Content Include="Scripts\jquery-2.2.2.min.js" />
+    <Content Include="Scripts\jquery-2.2.2.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\app.js" />
+    <Content Include="Scripts\js\controllers\conditionController.js" />
+    <Content Include="Scripts\js\controllers\hotelController.js" />
+    <Content Include="Scripts\js\controllers\ordersController.js" />
+    <Content Include="Scripts\js\controllers\roomController.js" />
+    <Content Include="Scripts\js\material.min.js" />
+    <Content Include="Scripts\js\ripples.min.js" />
+    <Content Include="Scripts\js\services\conditionService.js" />
+    <Content Include="Scripts\js\services\hotelService.js" />
+    <Content Include="Scripts\js\services\ordersService.js" />
+    <Content Include="Scripts\js\services\roomService.js" />
+    <Content Include="Scripts\lib\angular-animate\angular-animate.js" />
+    <Content Include="Scripts\lib\angular-animate\angular-animate.min.js" />
+    <Content Include="Scripts\lib\angular-animate\index.js" />
+    <Content Include="Scripts\lib\angular-aria\angular-aria.js" />
+    <Content Include="Scripts\lib\angular-aria\angular-aria.min.js" />
+    <Content Include="Scripts\lib\angular-aria\index.js" />
+    <Content Include="Scripts\lib\angular-loading-bar\build\loading-bar.css" />
+    <Content Include="Scripts\lib\angular-loading-bar\build\loading-bar.js" />
+    <Content Include="Scripts\lib\angular-loading-bar\build\loading-bar.min.css" />
+    <Content Include="Scripts\lib\angular-loading-bar\build\loading-bar.min.js" />
+    <Content Include="Scripts\lib\angular-loading-bar\Gruntfile.js" />
+    <Content Include="Scripts\lib\angular-loading-bar\index.js" />
+    <Content Include="Scripts\lib\angular-loading-bar\src\loading-bar.css" />
+    <Content Include="Scripts\lib\angular-loading-bar\src\loading-bar.js" />
+    <Content Include="Scripts\lib\angular-local-storage\.gitattributes" />
+    <Content Include="Scripts\lib\angular-local-storage\.gitignore" />
+    <Content Include="Scripts\lib\angular-local-storage\demo\demo-app.js" />
+    <Content Include="Scripts\lib\angular-local-storage\demo\demo-style.css" />
+    <Content Include="Scripts\lib\angular-local-storage\demo\demo.html" />
+    <Content Include="Scripts\lib\angular-local-storage\dist\angular-local-storage.js" />
+    <Content Include="Scripts\lib\angular-local-storage\dist\angular-local-storage.min.js" />
+    <Content Include="Scripts\lib\angular-material\.gitignore" />
+    <Content Include="Scripts\lib\angular-material\angular-material-mocks.js" />
+    <Content Include="Scripts\lib\angular-material\angular-material.css" />
+    <Content Include="Scripts\lib\angular-material\angular-material.js" />
+    <Content Include="Scripts\lib\angular-material\angular-material.layouts.css" />
+    <Content Include="Scripts\lib\angular-material\angular-material.layouts.min.css" />
+    <Content Include="Scripts\lib\angular-material\angular-material.min.css" />
+    <Content Include="Scripts\lib\angular-material\angular-material.min.js" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\copy.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\copy2.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\facebook.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\hangout.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\mail.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\message.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\print.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\share-arrow.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\twitter.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\bottomSheet\demoBasicUsage\img\icons\upload.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoLoadSvgIconsFromUrl\img\icons\addShoppingCart.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoLoadSvgIconsFromUrl\img\icons\android.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoLoadSvgIconsFromUrl\img\icons\cake.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconSets\assets\cake.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconSets\assets\core-icons.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconSets\assets\social-icons.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconsFromURL\img\icons\addShoppingCart.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconsFromURL\img\icons\android.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoSvgIconsFromURL\img\icons\cake.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoUsingTemplateCache\assets\android.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoUsingTemplateCache\assets\cake.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\icon\demoUsingTemplateCache\assets\core-icons.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\input\demoIcons\icons\ic_email_24px.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\input\demoIcons\icons\ic_person_24px.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\input\demoIcons\icons\ic_phone_24px.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\input\demoIcons\icons\ic_place_24px.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\list\demoListControls\img\100-0.jpeg" />
+    <Content Include="Scripts\lib\angular-material\demos\list\demoListControls\img\100-1.jpeg" />
+    <Content Include="Scripts\lib\angular-material\demos\list\demoListControls\img\100-2.jpeg" />
+    <Content Include="Scripts\lib\angular-material\demos\toolbar\demoBasicUsage\img\icons\favorite.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\toolbar\demoBasicUsage\img\icons\menu.svg" />
+    <Content Include="Scripts\lib\angular-material\demos\toolbar\demoBasicUsage\img\icons\more_vert.svg" />
+    <Content Include="Scripts\lib\angular-material\index.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\autocomplete\autocomplete.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\backdrop\backdrop.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\bottomSheet\bottomSheet.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\button\button.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\card\card.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\checkbox\checkbox.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\chips\chips.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\content\content.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\core\core.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\core\core.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\core\core.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\core\core.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\core\default-theme.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\datepicker\datepicker.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\dialog\dialog.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\divider\divider.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabActions\fabActions.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabActions\fabActions.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabSpeedDial\fabSpeedDial.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabSpeedDial\fabSpeedDial.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabSpeedDial\fabSpeedDial.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabSpeedDial\fabSpeedDial.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabToolbar\fabToolbar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabToolbar\fabToolbar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabToolbar\fabToolbar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabToolbar\fabToolbar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabTrigger\fabTrigger.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\fabTrigger\fabTrigger.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\gridList\gridList-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\gridList\gridList.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\gridList\gridList.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\gridList\gridList.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\gridList\gridList.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\icon\icon.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\input\input.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\list\list.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menuBar\menuBar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\menu\menu.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressCircular\progressCircular.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\progressLinear\progressLinear.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\radioButton\radioButton.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\select\select.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\showHide\showHide.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\showHide\showHide.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sidenav\sidenav.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\slider\slider.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sticky\sticky.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sticky\sticky.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sticky\sticky.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\sticky\sticky.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\subheader\subheader.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\swipe\swipe.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\swipe\swipe.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\switch\switch.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs-arrow.svg" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tabs\tabs.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\textField\textField-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\textField\textField.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\textField\textField.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toast\toast.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\toolbar\toolbar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\tooltip\tooltip.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\virtualRepeat\virtualRepeat.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\virtualRepeat\virtualRepeat.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\virtualRepeat\virtualRepeat.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\virtualRepeat\virtualRepeat.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\whiteframe\whiteframe.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\whiteframe\whiteframe.js" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\whiteframe\whiteframe.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\closure\whiteframe\whiteframe.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\css\angular-material-layout.css" />
+    <Content Include="Scripts\lib\angular-material\modules\css\angular-material-layouts.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\autocomplete.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\backdrop.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bottomSheet.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\button.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\card.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\checkbox.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\chips.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\content.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\core.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\core.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\core.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\core.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\default-theme.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\datepicker.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\dialog.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\divider.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabActions\fabActions.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabActions\fabActions.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabSpeedDial\fabSpeedDial.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabSpeedDial\fabSpeedDial.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabSpeedDial\fabSpeedDial.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabSpeedDial\fabSpeedDial.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabToolbar\fabToolbar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabToolbar\fabToolbar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabToolbar\fabToolbar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabToolbar\fabToolbar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabTrigger\fabTrigger.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabTrigger\fabTrigger.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\gridList\gridList.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\gridList\gridList.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\gridList\gridList.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\gridList\gridList.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\icon.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\input.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\list.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\menuBar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\menu.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\progressCircular.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\progressLinear.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\radioButton.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\select.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\showHide\showHide.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\showHide\showHide.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\sidenav.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\slider.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sticky\sticky.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sticky\sticky.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sticky\sticky.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sticky\sticky.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\subheader.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\swipe\swipe.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\swipe\swipe.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\switch.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\tabs.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\textField.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\toast.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\toolbar.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip-default-theme.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip-default-theme.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\tooltip.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\virtualRepeat\virtualRepeat.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\virtualRepeat\virtualRepeat.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\virtualRepeat\virtualRepeat.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\virtualRepeat\virtualRepeat.min.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\whiteframe\whiteframe.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\whiteframe\whiteframe.js" />
+    <Content Include="Scripts\lib\angular-material\modules\js\whiteframe\whiteframe.min.css" />
+    <Content Include="Scripts\lib\angular-material\modules\js\whiteframe\whiteframe.min.js" />
+    <Content Include="Scripts\lib\angular-messages\angular-messages.js" />
+    <Content Include="Scripts\lib\angular-messages\angular-messages.min.js" />
+    <Content Include="Scripts\lib\angular-messages\index.js" />
+    <Content Include="Scripts\lib\angular-mocks\angular-mocks.js" />
+    <Content Include="Scripts\lib\angular-mocks\ngAnimateMock.js" />
+    <Content Include="Scripts\lib\angular-mocks\ngMock.js" />
+    <Content Include="Scripts\lib\angular-mocks\ngMockE2E.js" />
+    <Content Include="Scripts\lib\angular-route\angular-route.js" />
+    <Content Include="Scripts\lib\angular-route\angular-route.min.js" />
+    <Content Include="Scripts\lib\angular-route\index.js" />
+    <Content Include="Scripts\lib\angular-snapjs\.gitignore" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\css\app.css" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\index.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\js\app.js" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\js\controllers.js" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\js\demo.js" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-basic.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-dragger.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-options.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-remote.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-two-drawers.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\ex-two-snappers.html" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\partials\index.html" />
+    <Content Include="Scripts\lib\angular-snapjs\Gruntfile.js" />
+    <Content Include="Scripts\lib\angular-snapjs\karma.conf.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\constants\snap-version.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-close.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-content.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-dragger.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-drawer.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-drawers.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\directives\snap-toggle.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\services\snap-constructor.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\services\snap-remote.js" />
+    <Content Include="Scripts\lib\angular-snapjs\src\scripts\snap.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\runner.html" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\constants\snap-version.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-close.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-content.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-dragger.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-drawer.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-drawers.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\directives\snap-toggle.js" />
+    <Content Include="Scripts\lib\angular-snapjs\test\spec\services\snap-remote.js" />
+    <Content Include="Scripts\lib\angular-ui-router-anim-in-out\anim-in-out.js" />
+    <Content Include="Scripts\lib\angular-ui-router-anim-in-out\css\anim-in-out.css" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\.gitignore" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\Gruntfile.js" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\karma.conf.js" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\test\ui-router-styles.js" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\ui-router-styles.js" />
+    <Content Include="Scripts\lib\angular-ui-router\release\angular-ui-router.js" />
+    <Content Include="Scripts\lib\angular-ui-router\release\angular-ui-router.min.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\common.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\resolve.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\state.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\stateDirectives.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\stateFilters.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\templateFactory.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\urlMatcherFactory.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\urlRouter.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\view.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\viewDirective.js" />
+    <Content Include="Scripts\lib\angular-ui-router\src\viewScroll.js" />
+    <Content Include="Scripts\lib\angular\angular-csp.css" />
+    <Content Include="Scripts\lib\angular\angular.js" />
+    <Content Include="Scripts\lib\angular\angular.min.js" />
+    <Content Include="Scripts\lib\angular\index.js" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Scripts\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Scripts\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Scripts\lib\bootstrap\dist\js\npm.js" />
+    <Content Include="Scripts\lib\es5-shim\es5-sham.js" />
+    <Content Include="Scripts\lib\es5-shim\es5-sham.min.js" />
+    <Content Include="Scripts\lib\es5-shim\es5-shim.js" />
+    <Content Include="Scripts\lib\es5-shim\es5-shim.min.js" />
+    <Content Include="Scripts\lib\font-awesome-css\.gitignore" />
+    <Content Include="Scripts\lib\font-awesome-css\css\font-awesome.css" />
+    <Content Include="Scripts\lib\font-awesome-css\css\font-awesome.min.css" />
+    <Content Include="Scripts\lib\font-awesome-css\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\lib\font-awesome\.gitignore" />
+    <Content Include="Scripts\lib\font-awesome\css\font-awesome.css" />
+    <Content Include="Scripts\lib\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Scripts\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\lib\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="Scripts\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="Scripts\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="Scripts\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="Scripts\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="Scripts\lib\jquery\dist\jquery.js" />
+    <Content Include="Scripts\lib\jquery\dist\jquery.min.js" />
+    <Content Include="Scripts\lib\jquery\MIT-LICENSE.txt" />
+    <Content Include="Scripts\lib\less.js\browser.js" />
+    <Content Include="Scripts\lib\less.js\dist\less.js" />
+    <Content Include="Scripts\lib\less.js\dist\less.min.js" />
+    <Content Include="Scripts\lib\less.js\index.js" />
+    <Content Include="Scripts\lib\ui-router\release\angular-ui-router.js" />
+    <Content Include="Scripts\lib\ui-router\release\angular-ui-router.min.js" />
+    <Content Include="Scripts\lib\ui-router\src\common.js" />
+    <Content Include="Scripts\lib\ui-router\src\resolve.js" />
+    <Content Include="Scripts\lib\ui-router\src\state.js" />
+    <Content Include="Scripts\lib\ui-router\src\stateDirectives.js" />
+    <Content Include="Scripts\lib\ui-router\src\stateFilters.js" />
+    <Content Include="Scripts\lib\ui-router\src\templateFactory.js" />
+    <Content Include="Scripts\lib\ui-router\src\urlMatcherFactory.js" />
+    <Content Include="Scripts\lib\ui-router\src\urlRouter.js" />
+    <Content Include="Scripts\lib\ui-router\src\view.js" />
+    <Content Include="Scripts\lib\ui-router\src\viewDirective.js" />
+    <Content Include="Scripts\lib\ui-router\src\viewScroll.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Scripts\lib\angular\.bower.json" />
+    <Content Include="Scripts\lib\angular\angular.min.js.gzip" />
+    <Content Include="Scripts\lib\angular\angular.min.js.map" />
+    <Content Include="Scripts\lib\angular\bower.json" />
+    <Content Include="Scripts\lib\angular\package.json" />
+    <Content Include="Scripts\lib\angular\README.md" />
+    <Content Include="Scripts\lib\angular-animate\.bower.json" />
+    <Content Include="Scripts\lib\angular-animate\angular-animate.min.js.map" />
+    <Content Include="Scripts\lib\angular-animate\bower.json" />
+    <Content Include="Scripts\lib\angular-animate\package.json" />
+    <Content Include="Scripts\lib\angular-animate\README.md" />
+    <Content Include="Scripts\lib\angular-aria\.bower.json" />
+    <Content Include="Scripts\lib\angular-aria\angular-aria.min.js.map" />
+    <Content Include="Scripts\lib\angular-aria\bower.json" />
+    <Content Include="Scripts\lib\angular-aria\package.json" />
+    <Content Include="Scripts\lib\angular-aria\README.md" />
+    <Content Include="Scripts\lib\angular-loading-bar\.bower.json" />
+    <Content Include="Scripts\lib\angular-loading-bar\bower.json" />
+    <Content Include="Scripts\lib\angular-loading-bar\CHANGELOG.md" />
+    <Content Include="Scripts\lib\angular-loading-bar\LICENSE" />
+    <Content Include="Scripts\lib\angular-loading-bar\package.json" />
+    <Content Include="Scripts\lib\angular-loading-bar\README.md" />
+    <Content Include="Scripts\lib\angular-local-storage\.bower.json" />
+    <Content Include="Scripts\lib\angular-local-storage\.bowerrc" />
+    <Content Include="Scripts\lib\angular-local-storage\.travis.yml" />
+    <Content Include="Scripts\lib\angular-local-storage\bower.json" />
+    <Content Include="Scripts\lib\angular-local-storage\CHANGELOG.md" />
+    <Content Include="Scripts\lib\angular-local-storage\LICENSE" />
+    <Content Include="Scripts\lib\angular-local-storage\package.json" />
+    <Content Include="Scripts\lib\angular-local-storage\README.md" />
+    <Content Include="Scripts\lib\angular-material\.bower.json" />
+    <Content Include="Scripts\lib\angular-material\angular-material.scss" />
+    <Content Include="Scripts\lib\angular-material\bower.json" />
+    <Content Include="Scripts\lib\angular-material\CHANGELOG.md" />
+    <Content Include="Scripts\lib\angular-material\demos\chips\demoBasicUsage\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\chips\demoContactChips\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\gridList\demoBasicUsage\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\gridList\demoDynamicTiles\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\gridList\demoResponsiveUsage\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\input\demoIcons\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\tabs\demoDynamicHeight\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\tabs\demoDynamicTabs\style.scss" />
+    <Content Include="Scripts\lib\angular-material\demos\tabs\demoStaticTabs\style.scss" />
+    <Content Include="Scripts\lib\angular-material\LICENSE" />
+    <Content Include="Scripts\lib\angular-material\modules\js\autocomplete\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\backdrop\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\bottomSheet\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\button\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\card\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\checkbox\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\chips\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\content\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\core\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\datepicker\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\dialog\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\divider\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabActions\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabSpeedDial\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabToolbar\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\fabTrigger\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\gridList\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\icon\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\input\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\list\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menu\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\menuBar\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressCircular\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\progressLinear\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\radioButton\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\select\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\showHide\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sidenav\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\slider\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\sticky\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\subheader\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\swipe\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\switch\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tabs\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\textField\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toast\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\toolbar\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\tooltip\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\virtualRepeat\bower.json" />
+    <Content Include="Scripts\lib\angular-material\modules\js\whiteframe\bower.json" />
+    <Content Include="Scripts\lib\angular-material\package.json" />
+    <Content Include="Scripts\lib\angular-material\README.md" />
+    <Content Include="Scripts\lib\angular-messages\.bower.json" />
+    <Content Include="Scripts\lib\angular-messages\angular-messages.min.js.map" />
+    <Content Include="Scripts\lib\angular-messages\bower.json" />
+    <Content Include="Scripts\lib\angular-messages\package.json" />
+    <Content Include="Scripts\lib\angular-messages\README.md" />
+    <Content Include="Scripts\lib\angular-mocks\.bower.json" />
+    <Content Include="Scripts\lib\angular-mocks\bower.json" />
+    <Content Include="Scripts\lib\angular-mocks\package.json" />
+    <Content Include="Scripts\lib\angular-mocks\README.md" />
+    <Content Include="Scripts\lib\angular-route\.bower.json" />
+    <Content Include="Scripts\lib\angular-route\angular-route.min.js.map" />
+    <Content Include="Scripts\lib\angular-route\bower.json" />
+    <Content Include="Scripts\lib\angular-route\package.json" />
+    <Content Include="Scripts\lib\angular-route\README.md" />
+    <Content Include="Scripts\lib\angular-snapjs\.bower.json" />
+    <Content Include="Scripts\lib\angular-snapjs\.bowerrc" />
+    <Content Include="Scripts\lib\angular-snapjs\.editorconfig" />
+    <Content Include="Scripts\lib\angular-snapjs\.jshintrc" />
+    <Content Include="Scripts\lib\angular-snapjs\.test.jshintrc" />
+    <Content Include="Scripts\lib\angular-snapjs\.travis.yml" />
+    <Content Include="Scripts\lib\angular-snapjs\bower.json" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\css\.gitkeep" />
+    <Content Include="Scripts\lib\angular-snapjs\examples\README.md" />
+    <Content Include="Scripts\lib\angular-snapjs\LICENSE-MIT" />
+    <Content Include="Scripts\lib\angular-snapjs\package.json" />
+    <Content Include="Scripts\lib\angular-snapjs\README.md" />
+    <Content Include="Scripts\lib\angular-snapjs\src\styles\angular-snap-only.less" />
+    <Content Include="Scripts\lib\angular-snapjs\src\styles\angular-snap.less" />
+    <Content Include="Scripts\lib\angular-snapjs\src\styles\mixins.less" />
+    <Content Include="Scripts\lib\angular-ui-router\.bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router\bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router\CHANGELOG.md" />
+    <Content Include="Scripts\lib\angular-ui-router\CONTRIBUTING.md" />
+    <Content Include="Scripts\lib\angular-ui-router\LICENSE" />
+    <Content Include="Scripts\lib\angular-ui-router\README.md" />
+    <Content Include="Scripts\lib\angular-ui-router-anim-in-out\.bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router-anim-in-out\bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router-anim-in-out\scss\anim-in-out.scss" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\.bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\.travis.yml" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\bower.json" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\LICENSE" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\package.json" />
+    <Content Include="Scripts\lib\angular-ui-router-styles\README.md" />
+    <Content Include="Scripts\lib\bootstrap\.bower.json" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <Content Include="Scripts\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Scripts\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Scripts\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\lib\bootstrap\LICENSE" />
+    <Content Include="Scripts\lib\es5-shim\.bower.json" />
+    <Content Include="Scripts\lib\es5-shim\bower.json" />
+    <Content Include="Scripts\lib\es5-shim\CHANGES" />
+    <Content Include="Scripts\lib\es5-shim\component.json" />
+    <Content Include="Scripts\lib\es5-shim\CONTRIBUTORS.md" />
+    <Content Include="Scripts\lib\es5-shim\es5-sham.map" />
+    <Content Include="Scripts\lib\es5-shim\es5-shim.map" />
+    <Content Include="Scripts\lib\es5-shim\LICENSE" />
+    <Content Include="Scripts\lib\es5-shim\Makefile" />
+    <Content Include="Scripts\lib\es5-shim\package.json" />
+    <Content Include="Scripts\lib\es5-shim\README.md" />
+    <Content Include="Scripts\lib\es5-shim\shims.json" />
+    <Content Include="Scripts\lib\font-awesome\.bower.json" />
+    <Content Include="Scripts\lib\font-awesome\.npmignore" />
+    <Content Include="Scripts\lib\font-awesome\bower.json" />
+    <Content Include="Scripts\lib\font-awesome\css\font-awesome.css.map" />
+    <Content Include="Scripts\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Scripts\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Scripts\lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\lib\font-awesome\less\animated.less" />
+    <Content Include="Scripts\lib\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Scripts\lib\font-awesome\less\core.less" />
+    <Content Include="Scripts\lib\font-awesome\less\fixed-width.less" />
+    <Content Include="Scripts\lib\font-awesome\less\font-awesome.less" />
+    <Content Include="Scripts\lib\font-awesome\less\icons.less" />
+    <Content Include="Scripts\lib\font-awesome\less\larger.less" />
+    <Content Include="Scripts\lib\font-awesome\less\list.less" />
+    <Content Include="Scripts\lib\font-awesome\less\mixins.less" />
+    <Content Include="Scripts\lib\font-awesome\less\path.less" />
+    <Content Include="Scripts\lib\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Scripts\lib\font-awesome\less\stacked.less" />
+    <Content Include="Scripts\lib\font-awesome\less\variables.less" />
+    <Content Include="Scripts\lib\font-awesome\scss\_animated.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_core.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_icons.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_larger.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_list.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_mixins.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_path.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_stacked.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\_variables.scss" />
+    <Content Include="Scripts\lib\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Scripts\lib\font-awesome-css\.bower.json" />
+    <Content Include="Scripts\lib\font-awesome-css\bower.json" />
+    <Content Include="Scripts\lib\font-awesome-css\fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\lib\font-awesome-css\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\lib\font-awesome-css\fonts\fontawesome-webfont.woff" />
+    <Content Include="Scripts\lib\font-awesome-css\fonts\FontAwesome.otf" />
+    <Content Include="Scripts\lib\jquery\.bower.json" />
+    <Content Include="Scripts\lib\jquery\dist\jquery.min.map" />
+    <Content Include="Scripts\lib\jquery-validation\.bower.json" />
+    <Content Include="Scripts\lib\jquery-validation\LICENSE.md" />
+    <Content Include="Scripts\lib\jquery-validation-unobtrusive\.bower.json" />
+    <Content Include="Scripts\lib\less.js\.bower.json" />
+    <Content Include="Scripts\lib\less.js\bower.json" />
+    <Content Include="Scripts\lib\ui-router\.bower.json" />
+    <Content Include="Scripts\lib\ui-router\bower.json" />
+    <Content Include="Scripts\lib\ui-router\CHANGELOG.md" />
+    <Content Include="Scripts\lib\ui-router\CONTRIBUTING.md" />
+    <Content Include="Scripts\lib\ui-router\LICENSE" />
+    <Content Include="Scripts\lib\ui-router\README.md" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Hotel\Index.cshtml" />
+    <Content Include="Views\Room\Index.cshtml" />
+    <Content Include="Views\Condition\Index.cshtml" />
+    <None Include="Views\HotelOrders\Start.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Moodroon.DataLayer.Core\Moodroon.DataLayer.Core.csproj">
+      <Project>{aba67578-b3bb-44bf-95cc-9e485c66264a}</Project>
+      <Name>Moodroon.DataLayer.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\AWSSDK.APIGateway.3.2.3.0-beta\analyzers\dotnet\cs\AWSSDK.APIGateway.CodeAnalysis.dll" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64526</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58829/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

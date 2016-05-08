@@ -1,0 +1,3 @@
+﻿<publishData>
+    <publishProfile publishUrl="https://doster-001-site1.ctempurl.com:8172/msdeploy.axd" msdeploySite="doster-001-site1" destinationAppUrl="http://doster-001-site1.ctempurl.com/"  profileName="Default Settings" publishMethod="MSDeploy" userName="ifc\doster-001" />
+</publishData>

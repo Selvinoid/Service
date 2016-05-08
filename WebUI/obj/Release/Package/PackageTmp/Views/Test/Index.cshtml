@@ -1,0 +1,163 @@
+﻿<div class="well bs-component">
+    <div ng-controller="ordersController" ng-init="init('@Url.Action("GetAllOrders", "HotelOrders")','@Url.Action("GetHotels","Hotel")','@Url.Action("GetUsers", "Account")')" ng-cloak="">
+        <div class="alert alert-dismissible alert-danger" id="Error" style="display: none;">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <h4 class="text-center">Error!</h4>
+            <p class="text-center">
+                Invalid date range or this hotel with this room is already booked
+            </p>
+        </div>
+        <div class="row">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="text-center">Orders page</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a data-toggle="modal" data-target="#addModal" class="btn btn-raised btn-warning ">
+                Add new order
+                <div class="ripple-container"></div>
+            </a>
+        </div>
+        <div class="row" style="overflow-x: auto;">
+            <div class="col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Hotel name</th>
+                            <th>User name</th>
+                            <th>Room</th>
+                            <th>Count Of Days</th>
+                            <th>Arrival date</th>
+                            <th>Leave date</th>
+                            <th>Total price</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr ng-repeat="order in orders">
+                            <td>{{order.HotelName}}</td>
+                            <td>{{order.UserName}}</td>
+                            <td>{{order.RoomNumber}}</td>
+                            <td>{{order.CountOfDays}}</td>
+                            <td>{{order.ArrivalDate | date:'medium'}}</td>
+                            <td>{{order.LeaveDate}}</td>
+                            <td>{{order.TotalPrice}}</td>
+                            <td><a href="javascript:void(0)" ng-click="deleteOrder('@Url.Action("DeleteOrder")',order)"><i class="material-icons">highlight_off</i></a></td>
+                            <td><a href="javascript:void(0)" ng-click="setEdit(order)"><i class="material-icons">border_color</i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Add order</h4>
+                    </div>
+                    <form ng-submit="addOrder('@Url.Action("AddOrder")')">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="control-label">Hotel</label>
+                                <select class="form-control" ng-model="addOrder.Hotel" ng-options="hotel as hotel.Name for hotel in hotels" required></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">User</label>
+                                <select class="form-control" ng-model="addOrder.User" ng-options="user as user.UserName for user in users" required></select>
+                            </div>
+                            <div class="form-group ">
+                                <label class="control-label">Room</label>
+                                <select class="form-control" ng-model="addOrder.Room" ng-options="room as room.Number for room in addOrder.Hotel.Rooms" required></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Arrival date</label>
+                                <input class="form-control" ng-model="addOrder.ArrivalDate" placeholder="Arrival date" id="ArrivalDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Leave date</label>
+                                <input class="form-control" ng-model="addOrder.LeaveDate" placeholder="Leave date" id="LeaveDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Count of days</label>
+                                <input class="form-control" ng-model="addOrder.CountOfDays" placeholder="Count of days" pattern="^[0-9]+$" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Total price</label>
+                                <input class="form-control" ng-model="addOrder.TotalPrice" placeholder="Total price" pattern="^[0-9]+$" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Add order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Edit order</h4>
+                    </div>
+                    <form ng-submit="saveEditOrder('@Url.Action("EditOrder")')">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="control-label">Hotel</label>
+                                <select class="form-control" ng-model="editOrder.HotelName" ng-options="hotel.Name as hotel.Name for hotel in hotels" ng-change="editchange()" required></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">User</label>
+                                <select class="form-control" ng-model="editOrder.UserName" ng-options="user.UserName as user.UserName for user in users" required></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Arrival date</label>
+                                <input class="form-control" ng-model="editOrder.ArrivalDate" placeholder="Arrival date" id="editArrivalDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Leave date</label>
+                                <input class="form-control" ng-model="editOrder.LeaveDate" placeholder="Leave date" id="editLeaveDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Count of days</label>
+                                <input class="form-control" ng-model="editOrder.CountOfDays" placeholder="Count of days" pattern="^[0-9]+$" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Total price</label>
+                                <input class="form-control" ng-model="editOrder.TotalPrice" placeholder="Total price" pattern="^[0-9]+$" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#ArrivalDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+            $('#LeaveDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+            $('#editArrivalDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+            $('#editLeaveDate').bootstrapMaterialDatePicker({ weekStart: 0, time: false });
+        });
+    </script>
+    <script type="text/javascript" src="https://rawgit.com/FezVrasta/bootstrap-material-design/master/dist/js/material.min.js"></script>
+    <script type="text/javascript" src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/services/ordersService.js"></script>
+    <script type="text/javascript" src="~/Scripts/js/controllers/ordersController.js"></script>
+    <script src="~/Scripts/bootstrap-material-datetimepicker.js"></script>
+}
